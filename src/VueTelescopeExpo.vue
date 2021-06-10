@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <div v-if="loading"></div>
+    <div v-if="loading"><slot v-bind:loading="loading" name="loading">Loading...</slot></div>
     <div class="grid">
       <div class="grid-item"
         v-for="item in items"
@@ -18,10 +18,14 @@
         </a>
       </div>
     </div>
-    <div
-      class="buttons"
-      v-if="items.length && items.length < count">
-      <button @click="loadMore">Load more</button>
+    <div class="buttons" v-if="items.length && items.length < count">
+      <slot name="buttons" v-bind:loadMore="loadMore"><button @click="loadMore">Load more</button></slot>
+    </div>
+    <div class="buttons" v-if="retry">
+      <slot name="retry" v-bind:setUp="setUp">
+        <div>Something went wrong!</div>
+        <button @click="setUp">Retry</button>
+      </slot>
     </div>
   </section>
 </template>
@@ -53,10 +57,21 @@ export default {
       loading: false,
       limit: 12,
       start: 0,
-      client: new VueTelescopeClient()
+      client: new VueTelescopeClient(),
+      retry: false
     }
   },
   methods: {
+    setUp() {
+      this.retry = false;
+      this.client.loadCount(this.slugs, this.sortField, this.sortDirection)
+        .then(data => {
+          this.count = parseInt(data, 10)
+          this.loadItems()
+        }).catch(() => {
+          this.retry = true;
+        })
+    },
     loadItems() {
       this.loading = true;
       this.client.loadItems(this.slugs, this.sortField, this.sortDirection, this.limit, this.start)
@@ -72,11 +87,7 @@ export default {
     }
   },
   beforeMount() {
-    this.client.loadCount(this.slugs, this.sortField, this.sortDirection)
-      .then(data => {
-        this.count = parseInt(data, 10)
-        this.loadItems()
-      });
+    this.setUp()
   }
 }
 </script>
