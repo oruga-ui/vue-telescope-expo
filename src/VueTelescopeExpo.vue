@@ -137,6 +137,7 @@ export default {
 .grid-item-image {
   border-radius: 1rem;
   box-shadow: 2px 2px 4px #424e5a;
+  max-width: 100%;
 }
 
 .grid-item-details {
@@ -157,7 +158,7 @@ export default {
 @media screen and (min-width: 719px) {
   .grid-item {
     flex: none;
-    width: 50%;
+    width: calc(50% - 2rem);
   }
 }
 
