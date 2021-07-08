@@ -4,24 +4,26 @@
       <div class="grid-item"
         v-for="item in items"
         :key="item.id">
-        <a
-          target="_blank"
-          class="grid-item-link"
-          :href="item.url">
-          <img
-            :src="`https://res.cloudinary.com/nuxt/image/upload/w_${imageWidth},h_${imageWidth * 6 / 8},f_auto,q_auto/${item.screenshotUrl}`"
-            class="grid-item-image"
-          >
-          <div class="grid-item-details">
-            <p class="grid-item-url">
-              <strong>{{ item.hostname }}</strong>
-            </p>
-            <div class="grid-item-plugins">
-              <img class="grid-item-plugin-image" v-if="item.ui" :src="`https://icons.vuetelescope.com${item.ui.imgPath}`"/>
-              <img class="grid-item-plugin-image" v-if="item.framework" :src="`https://icons.vuetelescope.com${item.framework.imgPath}`"/>
+        <slot v-bind:item="item" name="item">
+          <a
+            target="_blank"
+            class="grid-item-link"
+            :href="item.url">
+            <img
+              :src="`https://res.cloudinary.com/nuxt/image/upload/w_${imageWidth},h_${imageWidth * 6 / 8},f_auto,q_auto/${item.screenshotUrl}`"
+              class="grid-item-image"
+            >
+            <div class="grid-item-details">
+              <p class="grid-item-url">
+                <strong>{{ item.hostname }}</strong>
+              </p>
+              <div class="grid-item-plugins">
+                <img class="grid-item-plugin-image" v-if="item.ui" :src="`https://icons.vuetelescope.com${item.ui.imgPath}`"/>
+                <img class="grid-item-plugin-image" v-if="item.framework" :src="`https://icons.vuetelescope.com${item.framework.imgPath}`"/>
+              </div>
             </div>
-          </div>
-        </a>
+          </a>
+        </slot>
       </div>
     </div>
     <div class="controls">
