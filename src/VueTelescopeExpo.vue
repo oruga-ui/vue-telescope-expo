@@ -18,8 +18,13 @@
                 <strong>{{ item.hostname }}</strong>
               </p>
               <div class="grid-item-plugins">
-                <img class="grid-item-plugin-image" v-if="item.ui" :src="`https://icons.vuetelescope.com${item.ui.imgPath}`"/>
-                <img class="grid-item-plugin-image" v-if="item.framework" :src="`https://icons.vuetelescope.com${item.framework.imgPath}`"/>
+                <a
+                  target="_blank"
+                  class="grid-item-link"
+                  :href="`https://vuetelescope.com/explore/${item.slug}`">
+                  <img class="grid-item-plugin-image" v-if="item.ui" :src="`https://icons.vuetelescope.com${item.ui.imgPath}`"/>
+                  <img class="grid-item-plugin-image" v-if="item.framework" :src="`https://icons.vuetelescope.com${item.framework.imgPath}`"/>
+                </a>
               </div>
             </div>
           </a>
@@ -27,18 +32,15 @@
       </div>
     </div>
     <div class="controls">
-      <div v-if="loading">
-        <slot v-bind:loading="loading" name="loading">{{labelLoading}}</slot>
-      </div>
-      <div v-if="!loading && items.length && items.length < count">
-        <slot name="buttons" v-bind:loadMore="loadMore">
-          <button class="button" @click="loadMore">{{labelLoadMore}}</button>
+      <div v-if="!retry">
+        <slot name="buttons" v-bind="{ loading, loadMoreItems, hasMoreItems, labelLoadMore, labelLoading }">
+          <button v-if="hasMoreItems" class="button" @click="loadMoreItems">{{!loading ? labelLoadMore : labelLoading}}</button>
         </slot>
       </div>
       <div v-if="retry">
-        <slot name="retry" v-bind:setUp="setUp">
+        <slot name="retry" v-bind:firstLoadItems="firstLoadItems">
           <div class="retry-label">{{labelError}}</div>
-          <button class="button" @click="setUp">{{labelRetry}}</button>
+          <button class="button" @click="firstLoadItems">{{labelRetry}}</button>
         </slot>
       </div>
     </div>
@@ -92,10 +94,15 @@ export default {
       retry: false
     }
   },
+  computed: {
+    hasMoreItems() {
+      return this.items.length < this.count
+    }
+  },
   methods: {
-    setUp() {
+    firstLoadItems() {
       this.retry = false;
-      this.client.loadCount(this.slugs, this.sortField, this.sortDirection)
+      this.client.getItemsCount(this.slugs, this.sortField, this.sortDirection)
         .then(data => {
           this.count = parseInt(data, 10)
           this.loadItems()
@@ -105,20 +112,20 @@ export default {
     },
     loadItems() {
       this.loading = true;
-      this.client.loadItems(this.slugs, this.sortField, this.sortDirection, this.limit, this.start)
+      this.client.getItems(this.slugs, this.sortField, this.sortDirection, this.limit, this.start)
         .then(data => {
           this.items = [...this.items, ...data.filter(d => d.isPublic)]
         }).finally(() => {
           this.loading = false
         });
     },
-    loadMore() {
+    loadMoreItems() {
       this.start += this.limit
       this.loadItems();
     }
   },
   beforeMount() {
-    this.setUp()
+    this.firstLoadItems()
   }
 }
 </script>
@@ -139,7 +146,13 @@ export default {
 .grid-item-image {
   border-radius: 1rem;
   box-shadow: 2px 2px 4px #424e5a;
+  transition: transform .3s ease-in-out, box-shadow .3s ease-in-out;
   max-width: 100%;
+}
+
+.grid-item-image:hover {
+  transform: scale(1.02);
+  box-shadow: 4px 4px 4px #424e5a;
 }
 
 .grid-item-details {
@@ -178,8 +191,8 @@ export default {
   text-align: center;
   white-space: nowrap;
   border-radius: 4px;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  min-width: 9rem;
+  padding: 0.5rem;
 }
 
 .retry-label {
