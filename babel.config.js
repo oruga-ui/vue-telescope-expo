@@ -3,5 +3,10 @@ module.exports = {
     ['@vue/app', {
       useBuiltIns: false
     }]
+  ],
+  plugins: [
+    ['babel-plugin-istanbul', {
+      extension: ['.js', '.vue']
+    }]
   ]
 }

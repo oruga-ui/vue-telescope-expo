@@ -58,13 +58,13 @@ export default {
       type: Number,
       default: 800
     },
-    sortField: {
+    sortBy: {
       type: String,
       default: "rank"
     },
     sortDirection: {
       type: String,
-      default: "desc"
+      default: "asc"
     },
     labelRetry: {
       type: String,
@@ -102,7 +102,7 @@ export default {
   methods: {
     firstLoadItems() {
       this.retry = false;
-      this.client.getItemsCount(this.slugs, this.sortField, this.sortDirection)
+      this.client.getItemsCount(this.slugs, this.sortBy, this.sortDirection)
         .then(data => {
           this.count = parseInt(data, 10)
           this.loadItems()
@@ -112,7 +112,7 @@ export default {
     },
     loadItems() {
       this.loading = true;
-      this.client.getItems(this.slugs, this.sortField, this.sortDirection, this.limit, this.start)
+      this.client.getItems(this.slugs, this.sortBy, this.sortDirection, this.limit, this.start)
         .then(data => {
           this.items = [...this.items, ...data.filter(d => d.isPublic)]
         }).finally(() => {

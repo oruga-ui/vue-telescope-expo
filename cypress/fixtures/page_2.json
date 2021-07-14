@@ -1,0 +1,127 @@
+[
+    {
+        "id": 18864,
+        "domain": "playstation.com",
+        "hostname": "sms.playstation.com",
+        "url": "https://sms.playstation.com/",
+        "hasSSR": false,
+        "isStatic": true,
+        "vueVersion": "2.6.12",
+        "screenshotUrl": "vue-telemetry/2754e5c4c73d1619342112264338ec7c.jpg",
+        "slug": "sms-playstation-com",
+        "uiVersion": null,
+        "frameworkVersion": null,
+        "lastDetectedAt": "2021-06-24T00:01:51.231Z",
+        "ui": {
+            "id": 2,
+            "slug": "buefy",
+            "name": "Buefy",
+            "url": "https://buefy.org/",
+            "imgPath": "/ui/buefy.svg",
+            "createdAt": "2020-07-02T11:58:04.806Z",
+            "updatedAt": "2021-07-14T09:31:17.800Z"
+        },
+        "framework": null,
+        "title": "Santa Monica Studio - Home",
+        "description": "Santa Monica Studio (SMS) is the PlayStation® video game development team owned by Sony Computer Entertainment (SCE). At Santa Monica Studio, players come first in every decision they make.",
+        "language": "en",
+        "favicon": null,
+        "createdAt": "2020-09-24T13:51:58.479Z",
+        "updatedAt": "2021-06-24T00:01:51.459Z",
+        "isFeatured": false,
+        "isAdultContent": false,
+        "siteName": "",
+        "isPublic": true,
+        "views": 34,
+        "rank": "671",
+        "categories": [],
+        "modules": [],
+        "plugins": [
+            {
+                "id": 1,
+                "slug": "vue-router",
+                "name": "vue-router",
+                "url": "https://router.vuejs.org/",
+                "imgPath": null,
+                "createdAt": "2020-06-23T12:39:28.345Z",
+                "updatedAt": "2021-07-14T13:05:19.433Z"
+            },
+            {
+                "id": 2,
+                "slug": "vuex",
+                "name": "vuex",
+                "url": "https://vuex.vuejs.org",
+                "imgPath": null,
+                "createdAt": "2020-06-24T09:12:01.575Z",
+                "updatedAt": "2021-07-14T13:05:19.433Z"
+            },
+            {
+                "id": 3,
+                "slug": "vue-meta",
+                "name": "vue-meta",
+                "url": "https://vue-meta.nuxtjs.org",
+                "imgPath": null,
+                "createdAt": "2020-06-24T09:12:01.577Z",
+                "updatedAt": "2021-07-14T13:05:19.433Z"
+            }
+        ]
+    },
+    {
+        "id": 66610,
+        "domain": "free.fr",
+        "hostname": "pro.free.fr",
+        "url": "https://pro.free.fr/",
+        "hasSSR": false,
+        "isStatic": true,
+        "vueVersion": "2.6.12",
+        "screenshotUrl": "vue-telemetry/06fb2d7136a552dbed78177f5df773db.jpg",
+        "slug": "pro-free-fr",
+        "uiVersion": null,
+        "frameworkVersion": null,
+        "lastDetectedAt": "2021-06-19T00:02:24.809Z",
+        "ui": {
+            "id": 2,
+            "slug": "buefy",
+            "name": "Buefy",
+            "url": "https://buefy.org/",
+            "imgPath": "/ui/buefy.svg",
+            "createdAt": "2020-07-02T11:58:04.806Z",
+            "updatedAt": "2021-07-14T09:31:17.800Z"
+        },
+        "framework": null,
+        "title": "La fibre professionnelle ultra rapide et votre flotte mobile pour les entreprises !",
+        "description": "Profitez de la fibre professionnelle ultra rapide avec la technologie 10G EPON et de forfaits mobile pour les entreprises à prix compétitif avec une gestion centralisée et simplifiée.",
+        "language": "fr",
+        "favicon": null,
+        "createdAt": "2021-03-23T09:19:26.411Z",
+        "updatedAt": "2021-06-19T00:02:25.004Z",
+        "isFeatured": false,
+        "isAdultContent": false,
+        "siteName": "",
+        "isPublic": true,
+        "views": 0,
+        "rank": "863",
+        "categories": [],
+        "modules": [],
+        "plugins": [
+            {
+                "id": 2,
+                "slug": "vuex",
+                "name": "vuex",
+                "url": "https://vuex.vuejs.org",
+                "imgPath": null,
+                "createdAt": "2020-06-24T09:12:01.575Z",
+                "updatedAt": "2021-07-14T13:05:19.433Z"
+            },
+            {
+                "id": 6,
+                "slug": "vue-i18n",
+                "name": "vue-i18n",
+                "url": "https://kazupon.github.io/vue-i18n/",
+                "imgPath": null,
+                "createdAt": "2020-07-22T14:47:07.328Z",
+                "updatedAt": "2021-07-14T13:05:19.433Z"
+            }
+        ]
+    }
+]
