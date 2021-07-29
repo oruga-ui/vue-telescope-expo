@@ -32,10 +32,10 @@ yarn install
 yarn build
 ```
 
-### Run your unit tests
+### Run your component tests
 
 ```sh
-yarn test:unit
+yarn test
 ```
 
 ### Lints and fixes files

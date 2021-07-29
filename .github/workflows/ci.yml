@@ -6,7 +6,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Run Component tests 🧪
+      - name: Run lint and component tests 🧪
         uses: cypress-io/github-action@v2
         with:
-          command: yarn cypress run-ct
+          command: yarn ci

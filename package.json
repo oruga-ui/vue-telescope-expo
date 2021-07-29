@@ -5,8 +5,9 @@
   "private": false,
   "scripts": {
     "build": "vue-cli-service build --target lib --name telescopeexpo --filename vue-telescope-expo src/main.js",
-    "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "test": "cypress run-ct",
+    "lint": "vue-cli-service lint",
+    "ci" : "yarn lint && yarn test"
   },
   "files": [
     "dist",
