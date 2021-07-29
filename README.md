@@ -1,3 +1,8 @@
+# Vue Telescope Expo
+
+Fully customizable expo component for Vue.js that fetches data from [VueTelescope](https://vuetelescope.com/)!
+We're using this component inside [Oruga's documentation](https://oruga.io/expo/).
+
 ## Installation
 
 ```sh
