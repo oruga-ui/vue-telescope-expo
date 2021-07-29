@@ -1,0 +1,1480 @@
+[
+  {
+    "id": 58788,
+    "domain": "education.fr",
+    "hostname": "apps.education.fr",
+    "url": "https://apps.education.fr/",
+    "hasSSR": true,
+    "isStatic": true,
+    "vueVersion": "2.6.11",
+    "screenshotUrl": "vue-telemetry/107d52dcc6daf7d9eaed623148544366.jpg",
+    "slug": "apps-education-fr",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-05-07T09:11:21.221Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "Apps.education.fr Accueil",
+    "description": "apps.education.fr",
+    "language": "fr",
+    "favicon": null,
+    "createdAt": "2021-02-22T18:25:07.066Z",
+    "updatedAt": "2021-05-07T09:11:21.451Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "",
+    "isPublic": true,
+    "views": 0,
+    "rank": "9583",
+    "categories": [],
+    "modules": [
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      }
+    ]
+  },
+  {
+    "id": 29743,
+    "domain": "goorm.io",
+    "hostname": "greenmeister.run-eu-central1.goorm.io",
+    "url": "https://greenmeister.run-eu-central1.goorm.io/",
+    "hasSSR": true,
+    "isStatic": false,
+    "vueVersion": "2.6.12",
+    "screenshotUrl": "vue-telemetry/2447e1597a055c176d43431a28cd3035.jpg",
+    "slug": "greenmeister-run-eu-central1-goorm-io",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2020-11-01T11:54:14.775Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "Greenmeister_v2",
+    "description": "## Build Setup",
+    "language": "nl",
+    "favicon": null,
+    "createdAt": "2020-11-01T11:54:14.838Z",
+    "updatedAt": "2020-11-01T18:46:58.855Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "Greenmeister_v2",
+    "isPublic": true,
+    "views": 4,
+    "rank": "11828",
+    "categories": [],
+    "modules": [
+      {
+        "id": 3,
+        "slug": "nuxtjs-pwa",
+        "name": "@nuxtjs/pwa",
+        "url": "https://pwa.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:20:19.338Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 10,
+        "slug": "nuxtjs-auth",
+        "name": "@nuxtjs/auth",
+        "url": "https://auth.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:50.049Z",
+        "updatedAt": "2021-07-29T15:35:32.838Z"
+      },
+      {
+        "id": 39,
+        "slug": "nuxt-i18n",
+        "name": "nuxt-i18n",
+        "url": "https://i18n.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.350Z",
+        "updatedAt": "2021-07-29T17:34:20.513Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 2,
+        "slug": "vuex",
+        "name": "vuex",
+        "url": "https://vuex.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.575Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      }
+    ]
+  },
+  {
+    "id": 8693,
+    "domain": "rss.com",
+    "hostname": "rss.com",
+    "url": "https://rss.com/",
+    "hasSSR": true,
+    "isStatic": false,
+    "vueVersion": "2.6.12",
+    "screenshotUrl": "vue-telemetry/edd62cef2c12086e774963de5fa9eb79.jpg",
+    "slug": "rss-com",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-06-27T00:13:48.733Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "RSS Podcasting: Start Your Podcast for Free",
+    "description": "Start your podcast for free today with RSS Podcast Hosting, the easiest way to start, grow, track, and monetize your show.",
+    "language": "en",
+    "favicon": null,
+    "createdAt": "2020-07-09T14:28:18.160Z",
+    "updatedAt": "2021-06-27T00:13:48.969Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "RSS.com",
+    "isPublic": true,
+    "views": 14,
+    "rank": "32882",
+    "categories": [],
+    "modules": [
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 5,
+        "slug": "nuxtjs-sentry",
+        "name": "@nuxtjs/sentry",
+        "url": "https://sentry.nuxtjs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.064Z",
+        "updatedAt": "2021-07-29T15:41:46.183Z"
+      },
+      {
+        "id": 6,
+        "slug": "nuxtjs-moment",
+        "name": "@nuxtjs/moment",
+        "url": "https://github.com/nuxt-community/moment-module",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.065Z",
+        "updatedAt": "2021-07-29T16:33:59.262Z"
+      },
+      {
+        "id": 11,
+        "slug": "nuxtjs-google-tag-manager",
+        "name": "@nuxtjs/gtm",
+        "url": "https://github.com/nuxt-community/gtm-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:50.049Z",
+        "updatedAt": "2021-07-29T16:58:09.071Z"
+      },
+      {
+        "id": 25,
+        "slug": "nuxt-dayjs-module",
+        "name": "@nuxtjs/dayjs",
+        "url": "https://github.com/nuxt-community/dayjs-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:54.903Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 39,
+        "slug": "nuxt-i18n",
+        "name": "nuxt-i18n",
+        "url": "https://i18n.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.350Z",
+        "updatedAt": "2021-07-29T17:34:20.513Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 2,
+        "slug": "vuex",
+        "name": "vuex",
+        "url": "https://vuex.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.575Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      }
+    ]
+  },
+  {
+    "id": 29846,
+    "domain": "knownorigin.io",
+    "hostname": "knownorigin.io",
+    "url": "https://knownorigin.io/",
+    "hasSSR": true,
+    "isStatic": false,
+    "vueVersion": "2.6.11",
+    "screenshotUrl": "vue-telemetry/51fb216e8941ffdcf277093b5927363a.jpg",
+    "slug": "knownorigin-io",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-07-03T00:12:24.405Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "KnownOrigin | Digital Art Marketplace | NFT Crypto Art",
+    "description": "KnownOrigin is a digital art marketplace powered by Ethereum. Discover, collect and invest in rare, limited edition digital artworks from some of the world's leading artists and creatives.",
+    "language": "en",
+    "favicon": null,
+    "createdAt": "2020-11-01T21:58:49.125Z",
+    "updatedAt": "2021-07-03T00:12:24.622Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "KnownOrigin",
+    "isPublic": true,
+    "views": 2,
+    "rank": "48253",
+    "categories": [],
+    "modules": [
+      {
+        "id": 2,
+        "slug": "nuxtjs-google-analytics",
+        "name": "@nuxtjs/google-analytics",
+        "url": "https://google-analytics.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:20:19.338Z",
+        "updatedAt": "2021-07-29T15:53:08.500Z"
+      },
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 7,
+        "slug": "nuxtjs-device",
+        "name": "@nuxtjs/device",
+        "url": "https://github.com/nuxt-community/device-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:34.902Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 11,
+        "slug": "nuxtjs-google-tag-manager",
+        "name": "@nuxtjs/gtm",
+        "url": "https://github.com/nuxt-community/gtm-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:50.049Z",
+        "updatedAt": "2021-07-29T16:58:09.071Z"
+      },
+      {
+        "id": 18,
+        "slug": "nuxtjs-apollo",
+        "name": "@nuxtjs/apollo",
+        "url": "https://github.com/nuxt-community/apollo-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:54.211Z",
+        "updatedAt": "2021-07-29T12:24:44.718Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 2,
+        "slug": "vuex",
+        "name": "vuex",
+        "url": "https://vuex.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.575Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 4,
+        "slug": "vue-apollo",
+        "name": "vue-apollo",
+        "url": "https://apollo.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:51.376Z",
+        "updatedAt": "2021-07-29T13:39:36.961Z"
+      }
+    ]
+  },
+  {
+    "id": 11261,
+    "domain": "savethevideo.com",
+    "hostname": "savethevideo.com",
+    "url": "https://savethevideo.com/",
+    "hasSSR": true,
+    "isStatic": true,
+    "vueVersion": "2.6.10",
+    "screenshotUrl": "vue-telemetry/62daafd0bd8390f56783eaf9c7044a1b.jpg",
+    "slug": "savethevideo-com",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-06-07T00:10:54.902Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "Online Video Downloader and Converter [Updated 2021]",
+    "description": "Online video downloader and converter, download videos from YouTube, Facebook, Instagram, Twitter and many more websites with the best quality and for free, save YouTube videos in your favorite formats MP4, MP3, M4A and cut the videos to your desired length.",
+    "language": "en",
+    "favicon": null,
+    "createdAt": "2020-07-14T20:31:10.514Z",
+    "updatedAt": "2021-06-07T00:10:55.027Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "SaveTheVideo",
+    "isPublic": true,
+    "views": 6,
+    "rank": "65843",
+    "categories": [],
+    "modules": [
+      {
+        "id": 3,
+        "slug": "nuxtjs-pwa",
+        "name": "@nuxtjs/pwa",
+        "url": "https://pwa.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:20:19.338Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 39,
+        "slug": "nuxt-i18n",
+        "name": "nuxt-i18n",
+        "url": "https://i18n.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.350Z",
+        "updatedAt": "2021-07-29T17:34:20.513Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      }
+    ]
+  },
+  {
+    "id": 28233,
+    "domain": "tornado.cash",
+    "hostname": "tornado.cash",
+    "url": "https://tornado.cash/",
+    "hasSSR": false,
+    "isStatic": true,
+    "vueVersion": "2.6.12",
+    "screenshotUrl": "vue-telemetry/a4a5e4486d720d54fe86c90599bfd3ee.jpg",
+    "slug": "tornado-cash",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-07-17T00:16:44.653Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "Tornado.cash",
+    "description": "Non-custodial Ethereum Privacy solution.",
+    "language": "",
+    "favicon": null,
+    "createdAt": "2020-10-26T15:20:01.220Z",
+    "updatedAt": "2021-07-17T00:16:44.856Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "",
+    "isPublic": true,
+    "views": 2,
+    "rank": "73922",
+    "categories": [],
+    "modules": [],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      }
+    ]
+  },
+  {
+    "id": 8938,
+    "domain": "ricebowl.my",
+    "hostname": "ricebowl.my",
+    "url": "https://ricebowl.my/",
+    "hasSSR": true,
+    "isStatic": false,
+    "vueVersion": "2.6.11",
+    "screenshotUrl": "vue-telemetry/66d240404dd5aa3f25b07ce8c8159e0c.jpg",
+    "slug": "ricebowl-my",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2020-11-07T08:00:13.321Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "Search Jobs in Malaysia - October 2020 | Ricebowl.my",
+    "description": "\t\nFind the latest job vacancies in Malaysia. Jobs always updated. Register and Apply job today. Full time, Part-time, internship available on Ricebowl.my",
+    "language": "en",
+    "favicon": null,
+    "createdAt": "2020-07-09T14:32:33.359Z",
+    "updatedAt": "2020-11-11T23:04:44.355Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "",
+    "isPublic": true,
+    "views": 13,
+    "rank": "81504",
+    "categories": [],
+    "modules": [
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 6,
+        "slug": "nuxtjs-moment",
+        "name": "@nuxtjs/moment",
+        "url": "https://github.com/nuxt-community/moment-module",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.065Z",
+        "updatedAt": "2021-07-29T16:33:59.262Z"
+      },
+      {
+        "id": 8,
+        "slug": "cookie-universal-nuxt",
+        "name": "cookie-universal-nuxt",
+        "url": "https://github.com/microcipcip/cookie-universal/tree/master/packages/cookie-universal-nuxt",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:34.902Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 19,
+        "slug": "nuxt-user-agent",
+        "name": "nuxt-user-agent",
+        "url": "https://github.com/fukuiretu/nuxt-user-agent",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:54.220Z",
+        "updatedAt": "2021-07-29T14:17:10.045Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 2,
+        "slug": "vuex",
+        "name": "vuex",
+        "url": "https://vuex.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.575Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      }
+    ]
+  },
+  {
+    "id": 33208,
+    "domain": "medikamio.com",
+    "hostname": "medikamio.com",
+    "url": "https://medikamio.com/",
+    "hasSSR": true,
+    "isStatic": false,
+    "vueVersion": "2.6.12",
+    "screenshotUrl": "vue-telemetry/f4cfcd7d8ab35dca3854b0f98b9d70b7.jpg",
+    "slug": "medikamio-com",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-07-27T00:15:13.214Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "medikamio - Dein persönlicher Arzneimittel-Assistent",
+    "description": "Finde online Packungsbeilagen für über 14.000 Medikamente aus Österreich ▷ Jetzt suchen",
+    "language": "de",
+    "favicon": null,
+    "createdAt": "2020-11-17T22:17:14.851Z",
+    "updatedAt": "2021-07-27T00:15:13.365Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "",
+    "isPublic": true,
+    "views": 0,
+    "rank": "122735",
+    "categories": [],
+    "modules": [
+      {
+        "id": 2,
+        "slug": "nuxtjs-google-analytics",
+        "name": "@nuxtjs/google-analytics",
+        "url": "https://google-analytics.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:20:19.338Z",
+        "updatedAt": "2021-07-29T15:53:08.500Z"
+      },
+      {
+        "id": 3,
+        "slug": "nuxtjs-pwa",
+        "name": "@nuxtjs/pwa",
+        "url": "https://pwa.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:20:19.338Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 5,
+        "slug": "nuxtjs-sentry",
+        "name": "@nuxtjs/sentry",
+        "url": "https://sentry.nuxtjs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.064Z",
+        "updatedAt": "2021-07-29T15:41:46.183Z"
+      },
+      {
+        "id": 7,
+        "slug": "nuxtjs-device",
+        "name": "@nuxtjs/device",
+        "url": "https://github.com/nuxt-community/device-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:34.902Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 8,
+        "slug": "cookie-universal-nuxt",
+        "name": "cookie-universal-nuxt",
+        "url": "https://github.com/microcipcip/cookie-universal/tree/master/packages/cookie-universal-nuxt",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:34.902Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 19,
+        "slug": "nuxt-user-agent",
+        "name": "nuxt-user-agent",
+        "url": "https://github.com/fukuiretu/nuxt-user-agent",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:54.220Z",
+        "updatedAt": "2021-07-29T14:17:10.045Z"
+      },
+      {
+        "id": 20,
+        "slug": "nuxtjs-recaptcha",
+        "name": "@nuxtjs/recaptcha",
+        "url": "https://github.com/nuxt-community/recaptcha-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:54.220Z",
+        "updatedAt": "2021-07-29T11:32:44.568Z"
+      },
+      {
+        "id": 39,
+        "slug": "nuxt-i18n",
+        "name": "nuxt-i18n",
+        "url": "https://i18n.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.350Z",
+        "updatedAt": "2021-07-29T17:34:20.513Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 2,
+        "slug": "vuex",
+        "name": "vuex",
+        "url": "https://vuex.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.575Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      }
+    ]
+  },
+  {
+    "id": 48576,
+    "domain": "webmobilefirst.com",
+    "hostname": "webmobilefirst.com",
+    "url": "https://webmobilefirst.com/en/extension/onboarding",
+    "hasSSR": true,
+    "isStatic": true,
+    "vueVersion": "2.6.12",
+    "screenshotUrl": "vue-telemetry/8faec21578d02c9f9838011fcdefa53a.jpg",
+    "slug": "webmobilefirst-com",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-07-24T00:20:12.277Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "Quick installation of the mobile simulator extension",
+    "description": "",
+    "language": "en",
+    "favicon": null,
+    "createdAt": "2021-01-20T21:55:00.538Z",
+    "updatedAt": "2021-07-24T00:20:12.446Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "",
+    "isPublic": true,
+    "views": 0,
+    "rank": "183131",
+    "categories": [],
+    "modules": [
+      {
+        "id": 1,
+        "slug": "nuxt-http",
+        "name": "@nuxt/http",
+        "url": "https://http.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:20:19.335Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 10,
+        "slug": "nuxtjs-auth",
+        "name": "@nuxtjs/auth",
+        "url": "https://auth.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:50.049Z",
+        "updatedAt": "2021-07-29T15:35:32.838Z"
+      },
+      {
+        "id": 39,
+        "slug": "nuxt-i18n",
+        "name": "nuxt-i18n",
+        "url": "https://i18n.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.350Z",
+        "updatedAt": "2021-07-29T17:34:20.513Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 2,
+        "slug": "vuex",
+        "name": "vuex",
+        "url": "https://vuex.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.575Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      }
+    ]
+  },
+  {
+    "id": 59158,
+    "domain": "kamihome.com",
+    "hostname": "kamihome.com",
+    "url": "https://kamihome.com/",
+    "hasSSR": true,
+    "isStatic": true,
+    "vueVersion": "2.6.11",
+    "screenshotUrl": "vue-telemetry/18b2d852e081e90ca03a3e5aeaaf56f7.jpg",
+    "slug": "kamihome-com",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-04-21T12:17:55.078Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "Kami",
+    "description": "See What Matters. AI vision solution. Affordable and accessible for any consumer and business",
+    "language": "",
+    "favicon": null,
+    "createdAt": "2021-02-23T19:35:02.034Z",
+    "updatedAt": "2021-04-21T12:17:55.221Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "",
+    "isPublic": true,
+    "views": 0,
+    "rank": "191711",
+    "categories": [],
+    "modules": [
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 39,
+        "slug": "nuxt-i18n",
+        "name": "nuxt-i18n",
+        "url": "https://i18n.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.350Z",
+        "updatedAt": "2021-07-29T17:34:20.513Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 2,
+        "slug": "vuex",
+        "name": "vuex",
+        "url": "https://vuex.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.575Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      }
+    ]
+  },
+  {
+    "id": 84041,
+    "domain": "urlaubsguru.de",
+    "hostname": "urlaubsguru.de",
+    "url": "https://urlaubsguru.de/",
+    "hasSSR": true,
+    "isStatic": false,
+    "vueVersion": "2.6.11",
+    "screenshotUrl": "vue-telemetry/cbe2e9249981ad1a68d78d0383e3dd46.jpg",
+    "slug": "urlaubsguru-de",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-06-02T00:14:08.913Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "Urlaub günstig buchen mit Urlaubsguru: Findet euren Traumurlaub",
+    "description": "Entdeckt mit mir die Welt! ☀️ Hier gibt es die besten Urlaubsangebote ✅ Pauschalreisen, Städtereisen, Flüge, Hotels ✅ Bucht jetzt!",
+    "language": "de",
+    "favicon": null,
+    "createdAt": "2021-06-01T14:12:41.559Z",
+    "updatedAt": "2021-06-02T00:14:09.060Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "Holidayguru",
+    "isPublic": true,
+    "views": 0,
+    "rank": "209844",
+    "categories": [],
+    "modules": [
+      {
+        "id": 3,
+        "slug": "nuxtjs-pwa",
+        "name": "@nuxtjs/pwa",
+        "url": "https://pwa.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:20:19.338Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 5,
+        "slug": "nuxtjs-sentry",
+        "name": "@nuxtjs/sentry",
+        "url": "https://sentry.nuxtjs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.064Z",
+        "updatedAt": "2021-07-29T15:41:46.183Z"
+      },
+      {
+        "id": 8,
+        "slug": "cookie-universal-nuxt",
+        "name": "cookie-universal-nuxt",
+        "url": "https://github.com/microcipcip/cookie-universal/tree/master/packages/cookie-universal-nuxt",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:34.902Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 11,
+        "slug": "nuxtjs-google-tag-manager",
+        "name": "@nuxtjs/gtm",
+        "url": "https://github.com/nuxt-community/gtm-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:50.049Z",
+        "updatedAt": "2021-07-29T16:58:09.071Z"
+      },
+      {
+        "id": 14,
+        "slug": "nuxtjs-date-fns",
+        "name": "@nuxtjs/date-fns",
+        "url": "https://github.com/nuxt-community/date-fns-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:51.768Z",
+        "updatedAt": "2021-07-29T09:53:37.254Z"
+      },
+      {
+        "id": 18,
+        "slug": "nuxtjs-apollo",
+        "name": "@nuxtjs/apollo",
+        "url": "https://github.com/nuxt-community/apollo-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:54.211Z",
+        "updatedAt": "2021-07-29T12:24:44.718Z"
+      },
+      {
+        "id": 39,
+        "slug": "nuxt-i18n",
+        "name": "nuxt-i18n",
+        "url": "https://i18n.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.350Z",
+        "updatedAt": "2021-07-29T17:34:20.513Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 2,
+        "slug": "vuex",
+        "name": "vuex",
+        "url": "https://vuex.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.575Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 4,
+        "slug": "vue-apollo",
+        "name": "vue-apollo",
+        "url": "https://apollo.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:51.376Z",
+        "updatedAt": "2021-07-29T13:39:36.961Z"
+      },
+      {
+        "id": 6,
+        "slug": "vue-i18n",
+        "name": "vue-i18n",
+        "url": "https://kazupon.github.io/vue-i18n/",
+        "imgPath": null,
+        "createdAt": "2020-07-22T14:47:07.328Z",
+        "updatedAt": "2021-07-29T17:34:20.380Z"
+      },
+      {
+        "id": 9,
+        "slug": "vee-validate",
+        "name": "vee-validate",
+        "url": "https://vee-validate.logaretm.com/",
+        "imgPath": "/plugins/vee-validate.svg",
+        "createdAt": "2020-09-18T12:14:17.618Z",
+        "updatedAt": "2021-07-29T17:32:03.048Z"
+      }
+    ]
+  },
+  {
+    "id": 49425,
+    "domain": "slideswith.com",
+    "hostname": "slideswith.com",
+    "url": "https://slideswith.com/",
+    "hasSSR": true,
+    "isStatic": true,
+    "vueVersion": "2.6.12",
+    "screenshotUrl": "vue-telemetry/aed982e4e70b0bd08021854c580a8fe0.jpg",
+    "slug": "slideswith-com",
+    "uiVersion": null,
+    "frameworkVersion": null,
+    "lastDetectedAt": "2021-03-12T13:20:13.980Z",
+    "ui": {
+      "id": 2,
+      "slug": "buefy",
+      "name": "Buefy",
+      "url": "https://buefy.org/",
+      "imgPath": "/ui/buefy.svg",
+      "createdAt": "2020-07-02T11:58:04.806Z",
+      "updatedAt": "2021-07-29T15:31:08.973Z"
+    },
+    "framework": {
+      "id": 1,
+      "slug": "nuxtjs",
+      "name": "NuxtJS",
+      "url": "https://nuxtjs.org",
+      "imgPath": "/framework/nuxt.svg",
+      "createdAt": "2020-06-23T12:39:28.355Z",
+      "updatedAt": "2021-07-29T17:39:28.324Z"
+    },
+    "title": "Virtual Games for Remote Team Building — Slides With Friends",
+    "description": "Bring people together with events that let your audience play along. Slides With Friends lets you build and host icebreakers, happy hour games, trivia, real-time surveys, and much more — customized however you see fit.",
+    "language": "",
+    "favicon": null,
+    "createdAt": "2021-01-23T09:08:56.326Z",
+    "updatedAt": "2021-03-12T13:20:14.198Z",
+    "isFeatured": false,
+    "isAdultContent": false,
+    "siteName": "",
+    "isPublic": true,
+    "views": 0,
+    "rank": "220603",
+    "categories": [],
+    "modules": [
+      {
+        "id": 2,
+        "slug": "nuxtjs-google-analytics",
+        "name": "@nuxtjs/google-analytics",
+        "url": "https://google-analytics.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:20:19.338Z",
+        "updatedAt": "2021-07-29T15:53:08.500Z"
+      },
+      {
+        "id": 4,
+        "slug": "nuxtjs-axios",
+        "name": "@nuxtjs/axios",
+        "url": "https://axios.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.056Z",
+        "updatedAt": "2021-07-29T17:39:27.933Z"
+      },
+      {
+        "id": 5,
+        "slug": "nuxtjs-sentry",
+        "name": "@nuxtjs/sentry",
+        "url": "https://sentry.nuxtjs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-24T13:55:59.064Z",
+        "updatedAt": "2021-07-29T15:41:46.183Z"
+      },
+      {
+        "id": 8,
+        "slug": "cookie-universal-nuxt",
+        "name": "cookie-universal-nuxt",
+        "url": "https://github.com/microcipcip/cookie-universal/tree/master/packages/cookie-universal-nuxt",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:34.902Z",
+        "updatedAt": "2021-07-29T17:34:20.512Z"
+      },
+      {
+        "id": 10,
+        "slug": "nuxtjs-auth",
+        "name": "@nuxtjs/auth",
+        "url": "https://auth.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:50.049Z",
+        "updatedAt": "2021-07-29T15:35:32.838Z"
+      },
+      {
+        "id": 18,
+        "slug": "nuxtjs-apollo",
+        "name": "@nuxtjs/apollo",
+        "url": "https://github.com/nuxt-community/apollo-module",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:54.211Z",
+        "updatedAt": "2021-07-29T12:24:44.718Z"
+      },
+      {
+        "id": 31,
+        "slug": "nuxt-content",
+        "name": "@nuxt/content",
+        "url": "https://content.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:57.891Z",
+        "updatedAt": "2021-07-29T17:19:38.823Z"
+      }
+    ],
+    "plugins": [
+      {
+        "id": 1,
+        "slug": "vue-router",
+        "name": "vue-router",
+        "url": "https://router.vuejs.org/",
+        "imgPath": null,
+        "createdAt": "2020-06-23T12:39:28.345Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 2,
+        "slug": "vuex",
+        "name": "vuex",
+        "url": "https://vuex.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.575Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 3,
+        "slug": "vue-meta",
+        "name": "vue-meta",
+        "url": "https://vue-meta.nuxtjs.org",
+        "imgPath": null,
+        "createdAt": "2020-06-24T09:12:01.577Z",
+        "updatedAt": "2021-07-29T17:39:26.051Z"
+      },
+      {
+        "id": 4,
+        "slug": "vue-apollo",
+        "name": "vue-apollo",
+        "url": "https://apollo.vuejs.org",
+        "imgPath": null,
+        "createdAt": "2020-07-03T08:46:51.376Z",
+        "updatedAt": "2021-07-29T13:39:36.961Z"
+      }
+    ]
+  }
+]
