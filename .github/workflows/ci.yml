@@ -1,5 +1,5 @@
 name: CI
-on: [push]
+on: [push, pull_request]
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
@@ -10,3 +10,5 @@ jobs:
         uses: cypress-io/github-action@v2
         with:
           command: yarn ci
+      - name: Upload coverage
+        uses: codecov/codecov-action@v2
