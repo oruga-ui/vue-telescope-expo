@@ -10,6 +10,10 @@ We're using this component inside [Oruga's documentation](https://oruga.io/expo/
     <a href="https://codecov.io/gh/oruga-ui/vue-telescope-expo"><img src="https://img.shields.io/codecov/c/github/oruga-ui/vue-telescope-expo.svg?style=flat-square" /></a>
 </p>
 
+<p align="center">
+    <img src=".public/vuetelescopeexpo.gif" style="max-width: 800px; border-radius: 20px"/>
+</p>
+
 ## Installation
 
 ```sh
