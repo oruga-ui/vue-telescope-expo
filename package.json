@@ -8,7 +8,7 @@
     "build": "vue-cli-service build --target lib --name telescopeexpo --filename vue-telescope-expo src/main.js",
     "test": "rm -rf .nyc_output coverage && cypress run-ct",
     "lint": "vue-cli-service lint",
-    "ci" : "yarn lint && yarn test"
+    "ci": "yarn lint && yarn test"
   },
   "files": [
     "dist",
