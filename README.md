@@ -69,7 +69,7 @@ Use this slot to override part. This slot receives:
 Use this slot to override the items' template. This slot receives:
 - `item`: object representing a VueTelescope item.
 
-Here's a simple customization using Oruga UI components
+Here's a simple customization using Oruga UI components ([live preview](https://preview.oruga.io/expo/))
 
 ```html
 <vue-telescope-expo :slugs="{ ui: 'oruga' }">
