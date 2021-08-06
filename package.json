@@ -2,7 +2,7 @@
   "name": "vue-telescope-expo",
   "main": "./dist/vue-telescope-expo.common.js",
   "description": "Fully customizable expo component for Vue.js that fetches data from VueTelescope",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "build": "vue-cli-service build --target lib --name telescopeexpo --filename vue-telescope-expo src/main.js",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/oruga-ui/vue-telescope-expo.git"
+    "url": "https://github.com/oruga-ui/vue-telescope-expo.git"
   },
   "author": "Andrea Stagi <stagi.andrea@gmail.com>",
   "license": "MIT",

@@ -13,8 +13,11 @@ yarn add vue-telescope-expo
 
 ```js
 import VueTelescopeExpo from 'vue-telescope-expo'
+import 'vue-telescope-expo/dist/vue-telescope-expo.css'
 
-Vue.component(VueTelescopeExpo.name, VueTelescopeExpo)
+export default {
+  components: { VueTelescopeExpo },
+}
 ```
 
 ```html
