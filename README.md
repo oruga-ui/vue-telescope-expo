@@ -7,7 +7,7 @@ We're using this component inside [Oruga's documentation](https://oruga.io/expo/
     <a href="https://www.npmjs.com/package/vue-telescope-expo"><img src="https://img.shields.io/npm/v/vue-telescope-expo.svg?logo=npm" /></a>
     <a href="https://www.npmjs.com/package/vue-telescope-expo"><img src="https://img.shields.io/npm/dt/vue-telescope-expo.svg" /></a>
     <a href="https://github.com/oruga-ui/vue-telescope-expo/actions"><img src="https://github.com/oruga-ui/vue-telescope-expo/actions/workflows/ci.yml/badge.svg" /><a>
-    <a href="https://codecov.io/gh/oruga-ui/vue-telescope-expo"><img src="https://img.shields.io/codecov/c/github/oruga-ui/vue-telescope-expo.svg?style=flat-square" /></a>
+    <a href="https://codecov.io/gh/oruga-ui/vue-telescope-expo"><img src="https://img.shields.io/codecov/c/github/oruga-ui/vue-telescope-expo.svg" /></a>
 </p>
 
 <p align="center">
