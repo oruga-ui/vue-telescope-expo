@@ -48,9 +48,10 @@
 </template>
 
 <script>
+import { defineComponent } from "vue"
 import VueTelescopeClient from "./VueTelescopeClient.js"
 
-export default {
+export default defineComponent({
   name: "VueTelescopeExpo",
   props: {
     slugs: Object,
@@ -127,7 +128,7 @@ export default {
   beforeMount() {
     this.firstLoadItems()
   }
-}
+})
 </script>
 
 <style scoped>

@@ -6,10 +6,11 @@ module.exports = {
   'extends': [
     'plugin:vue/essential',
     'eslint:recommended',
-    'plugin:cypress/recommended'
+    'plugin:cypress/recommended',
+    'plugin:vue/vue3-essential'
   ],
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: '@babel/eslint-parser'
   },
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
